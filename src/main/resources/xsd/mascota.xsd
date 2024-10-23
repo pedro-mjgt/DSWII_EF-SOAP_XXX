@@ -1,0 +1,55 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://www.cibertec.edu.pe/ws/objects"
+           targetNamespace="http://www.cibertec.edu.pe/ws/objects"
+           elementFormDefault="qualified">
+    <xs:complexType name="mascotaws">
+        <xs:sequence>
+            <xs:element name="idmascota" type="xs:int" />
+            <xs:element name="nombre" type="xs:string" />
+            <xs:element name="especie" type="xs:string" />
+            <xs:element name="raza" type="xs:string" />
+            <xs:element name="idcliente" type="xs:int" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="getMascotasRequest">
+        <xs:complexType>
+            <xs:sequence/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="getMascotasResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="mascotas"
+                            type="tns:mascotaws" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="getMascotaRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="getMascotaResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="mascota" type="tns:mascotaws" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="postMascotaRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="mascota" type="tns:mascotaws" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="postMascotaResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="mascota" type="tns:mascotaws" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

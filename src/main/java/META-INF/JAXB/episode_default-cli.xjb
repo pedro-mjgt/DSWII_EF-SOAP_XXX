@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.10.23 a las 02:28:09 AM PET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.cibertec.edu.pe/ws/objects">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.ws.objects"/>
+    </schemaBindings>
+    <bindings scd="tns:getClientesRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetClientesRequest"/>
+    </bindings>
+    <bindings scd="tns:getClientesResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetClientesResponse"/>
+    </bindings>
+    <bindings scd="~tns:clientews">
+      <class ref="pe.edu.cibertec.ws.objects.Clientews"/>
+    </bindings>
+    <bindings scd="tns:getClienteRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetClienteRequest"/>
+    </bindings>
+    <bindings scd="tns:getClienteResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetClienteResponse"/>
+    </bindings>
+    <bindings scd="tns:postClienteRequest">
+      <class ref="pe.edu.cibertec.ws.objects.PostClienteRequest"/>
+    </bindings>
+    <bindings scd="tns:postClienteResponse">
+      <class ref="pe.edu.cibertec.ws.objects.PostClienteResponse"/>
+    </bindings>
+    <bindings scd="tns:getMascotasRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetMascotasRequest"/>
+    </bindings>
+    <bindings scd="tns:getMascotasResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetMascotasResponse"/>
+    </bindings>
+    <bindings scd="~tns:mascotaws">
+      <class ref="pe.edu.cibertec.ws.objects.Mascotaws"/>
+    </bindings>
+    <bindings scd="tns:getMascotaRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetMascotaRequest"/>
+    </bindings>
+    <bindings scd="tns:getMascotaResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetMascotaResponse"/>
+    </bindings>
+    <bindings scd="tns:postMascotaRequest">
+      <class ref="pe.edu.cibertec.ws.objects.PostMascotaRequest"/>
+    </bindings>
+    <bindings scd="tns:postMascotaResponse">
+      <class ref="pe.edu.cibertec.ws.objects.PostMascotaResponse"/>
+    </bindings>
+    <bindings scd="tns:getVeterinariosRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetVeterinariosRequest"/>
+    </bindings>
+    <bindings scd="tns:getVeterinariosResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetVeterinariosResponse"/>
+    </bindings>
+    <bindings scd="~tns:veterinariows">
+      <class ref="pe.edu.cibertec.ws.objects.Veterinariows"/>
+    </bindings>
+    <bindings scd="tns:getVeterinarioRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetVeterinarioRequest"/>
+    </bindings>
+    <bindings scd="tns:getVeterinarioResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetVeterinarioResponse"/>
+    </bindings>
+    <bindings scd="tns:postVeterinarioRequest">
+      <class ref="pe.edu.cibertec.ws.objects.PostVeterinarioRequest"/>
+    </bindings>
+    <bindings scd="tns:postVeterinarioResponse">
+      <class ref="pe.edu.cibertec.ws.objects.PostVeterinarioResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
